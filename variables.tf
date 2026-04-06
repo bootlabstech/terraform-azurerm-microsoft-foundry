@@ -18,11 +18,6 @@ variable "sku_name" {
   description = "SKU (pricing tier) for the Cognitive Services account (e.g., S0, S1)."
 }
 
-variable "custom_subdomain_name" {
-  type        = string
-  description = "Custom subdomain name for the Cognitive Services endpoint. Must be globally unique."
-}
-
 variable "public_network_access_enabled" {
   type        = bool
   default     = false
